@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bijukumar Brahma | Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet"/>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">BB<span class="dot">.</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home"     class="nav-link">Home</a></li>
+        <li><a href="#about"    class="nav-link">About</a></li>
+        <li><a href="#skills"   class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#resume"   class="nav-link">Resume</a></li>
+        <li><a href="#contact"  class="nav-link">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <i class="fa-solid fa-moon" id="themeIcon"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-greeting reveal">👋 Hello, I'm</p>
+      <h1 class="hero-name reveal delay-1">Bijukumar<br/><span class="gradient-text">Brahma</span></h1>
+      <p class="hero-title reveal delay-2">
+        <span class="typed-wrapper">
+          <span id="typed"></span><span class="cursor-blink">|</span>
+        </span>
+      </p>
+      <p class="hero-intro reveal delay-3">
+        BSc Computer Science student from Guwahati, Assam, passionate about crafting
+        elegant solutions and building things that matter on the web and beyond.
+      </p>
+      <div class="hero-cta reveal delay-4">
+        <a href="#projects" class="btn btn-primary">
+          <i class="fa-solid fa-code"></i> View Projects
+        </a>
+        <a href="#contact" class="btn btn-ghost">
+          <i class="fa-solid fa-paper-plane"></i> Contact Me
+        </a>
+      </div>
+      <div class="hero-socials reveal delay-5">
+        <a href="https://github.com/" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://linkedin.com/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="mailto:bijukumar@email.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="hero-visual reveal delay-3">
+      <div class="avatar-ring">
+        <div class="avatar-inner">
+          <span class="avatar-initials">BB</span>
+        </div>
+        <div class="orbit orbit-1"><div class="orbit-dot"></div></div>
+        <div class="orbit orbit-2"><div class="orbit-dot"></div></div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+      <i class="fa-solid fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-label reveal">About Me</div>
+      <h2 class="section-title reveal delay-1">Who Am I?</h2>
+      <div class="about-grid">
+        <div class="about-text reveal delay-2">
+          <p>
+            I'm <strong>Bijukumar Brahma</strong>, a passionate BSc Computer Science student
+            based in Guwahati, Assam, India. I love exploring the intersection of logic and
+            creativity — whether it's writing clean algorithms, building intuitive web apps,
+            or diving into the fundamentals of how computers think.
+          </p>
+          <p>
+            Currently in my undergraduate journey, I actively work on side projects, contribute
+            to open-source, and continuously sharpen my problem-solving skills through competitive
+            programming. I believe in learning by building.
+          </p>
+          <div class="about-cards">
+            <div class="about-card">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Guwahati, Assam, India</span>
+            </div>
+            <div class="about-card">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <span>BSc Computer Science</span>
+            </div>
+            <div class="about-card">
+              <i class="fa-solid fa-code"></i>
+              <span>Open Source Enthusiast</span>
+            </div>
+            <div class="about-card">
+              <i class="fa-solid fa-briefcase"></i>
+              <span>Available for Internships</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-education reveal delay-3">
+          <h3 class="sub-heading">Education</h3>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-year">2022 – Present</span>
+                <h4>BSc Computer Science</h4>
+                <p>Cotton University, Guwahati</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-year">2020 – 2022</span>
+                <h4>Higher Secondary (Science)</h4>
+                <p>AHSEC Board, Assam</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-year">2020</span>
+                <h4>Secondary (SEBA Board)</h4>
+                <p>Kendriya Vidyalaya, Guwahati</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <div class="section-label reveal">Skills</div>
+      <h2 class="section-title reveal delay-1">Tech Stack</h2>
+      <p class="section-sub reveal delay-2">Technologies I work with and am currently levelling up.</p>
+
+      <div class="skills-grid reveal delay-3">
+
+        <!-- Language Cards -->
+        <div class="skill-category">
+          <h3 class="skill-cat-title"><i class="fa-solid fa-terminal"></i> Languages</h3>
+          <div class="skill-list">
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name"><i class="fa-brands fa-python skill-icon python"></i> Python</span>
+                <span class="skill-pct">85%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name"><i class="fa-brands fa-java skill-icon java"></i> Java</span>
+                <span class="skill-pct">75%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name"><i class="fa-solid fa-c skill-icon c-lang"></i> C</span>
+                <span class="skill-pct">70%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name"><i class="fa-brands fa-js skill-icon js"></i> JavaScript</span>
+                <span class="skill-pct">80%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Web -->
+        <div class="skill-category">
+          <h3 class="skill-cat-title"><i class="fa-solid fa-globe"></i> Web Dev</h3>
+          <div class="skill-list">
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name"><i class="fa-brands fa-html5 skill-icon html"></i> HTML5</span>
+                <span class="skill-pct">90%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name"><i class="fa-brands fa-css3-alt skill-icon css"></i> CSS3</span>
+                <span class="skill-pct">85%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name"><i class="fa-brands fa-react skill-icon react"></i> React (Learning)</span>
+                <span class="skill-pct">45%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="45"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-header">
+                <span class="skill-name"><i class="fa-solid fa-server skill-icon node"></i> Node.js (Basics)</span>
+                <span class="skill-pct">40%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="40"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tools -->
+        <div class="skill-category skill-category--tools">
+          <h3 class="skill-cat-title"><i class="fa-solid fa-screwdriver-wrench"></i> Tools & Others</h3>
+          <div class="tool-chips">
+            <span class="chip"><i class="fa-brands fa-git-alt"></i> Git</span>
+            <span class="chip"><i class="fa-brands fa-github"></i> GitHub</span>
+            <span class="chip"><i class="fa-solid fa-database"></i> MySQL</span>
+            <span class="chip"><i class="fa-solid fa-terminal"></i> Linux</span>
+            <span class="chip"><i class="fa-brands fa-figma"></i> Figma</span>
+            <span class="chip"><i class="fa-solid fa-code"></i> VS Code</span>
+            <span class="chip"><i class="fa-brands fa-docker"></i> Docker (Basics)</span>
+            <span class="chip"><i class="fa-solid fa-brain"></i> DSA</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <div class="section-label reveal">Projects</div>
+      <h2 class="section-title reveal delay-1">What I've Built</h2>
+      <p class="section-sub reveal delay-2">A selection of personal and academic projects.</p>
+
+      <div class="projects-grid">
+
+        <div class="project-card reveal delay-1">
+          <div class="project-top">
+            <div class="project-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+              <a href="#" target="_blank" title="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">ShopEase – E-Commerce App</h3>
+          <p class="project-desc">
+            A full-stack e-commerce web application with user authentication, product catalog,
+            cart management, and order tracking. Built with vanilla JS for the frontend and
+            Python (Flask) for the REST API.
+          </p>
+          <div class="project-tags">
+            <span>Python</span><span>Flask</span><span>HTML/CSS</span><span>JavaScript</span><span>MySQL</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal delay-2">
+          <div class="project-top">
+            <div class="project-icon"><i class="fa-solid fa-list-check"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+              <a href="#" target="_blank" title="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">TaskFlow – Productivity Manager</h3>
+          <p class="project-desc">
+            A responsive task manager with drag-and-drop Kanban boards, deadline reminders,
+            priority tagging, and local-storage persistence. Focused on UX and clean, 
+            accessible UI design.
+          </p>
+          <div class="project-tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>LocalStorage</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal delay-3">
+          <div class="project-top">
+            <div class="project-icon"><i class="fa-solid fa-cloud-sun"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+              <a href="#" target="_blank" title="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">WeatherNow – Live Weather App</h3>
+          <p class="project-desc">
+            A weather dashboard that fetches real-time data from OpenWeatherMap API,
+            displays 5-day forecasts, city search, and dynamic backgrounds based on
+            current weather conditions.
+          </p>
+          <div class="project-tags">
+            <span>JavaScript</span><span>REST API</span><span>CSS Animations</span><span>OpenWeatherMap</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal delay-4">
+          <div class="project-top">
+            <div class="project-icon"><i class="fa-solid fa-robot"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">CLI Study Buddy – Python Chatbot</h3>
+          <p class="project-desc">
+            A command-line chatbot that helps students create quiz questions, flashcards,
+            and study schedules from plain-text notes, using basic NLP and keyword extraction
+            in pure Python.
+          </p>
+          <div class="project-tags">
+            <span>Python</span><span>NLP</span><span>CLI</span><span>File I/O</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal delay-1">
+          <div class="project-top">
+            <div class="project-icon"><i class="fa-solid fa-lock"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">PassVault – Password Manager</h3>
+          <p class="project-desc">
+            A desktop password manager with AES encryption, master-password protection,
+            and a clean GUI built with Java Swing. Stores credentials locally in an
+            encrypted SQLite database.
+          </p>
+          <div class="project-tags">
+            <span>Java</span><span>Swing</span><span>AES Encryption</span><span>SQLite</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal delay-2">
+          <div class="project-top">
+            <div class="project-icon"><i class="fa-solid fa-chart-line"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">StockSense – Data Analysis Dashboard</h3>
+          <p class="project-desc">
+            A Python data-analysis project visualising historical stock trends using
+            Pandas and Matplotlib, with interactive plots and summary statistics for
+            portfolio performance evaluation.
+          </p>
+          <div class="project-tags">
+            <span>Python</span><span>Pandas</span><span>Matplotlib</span><span>CSV</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RESUME ===== -->
+  <section class="section resume-sec" id="resume">
+    <div class="container">
+      <div class="resume-card reveal">
+        <div class="resume-left">
+          <div class="section-label" style="margin-bottom:0.5rem;">Resume</div>
+          <h2>Let's Work Together</h2>
+          <p>Download my resume to learn more about my background, skills, and accomplishments.</p>
+          <a href="#" class="btn btn-primary" download>
+            <i class="fa-solid fa-download"></i> Download Resume
+          </a>
+        </div>
+        <div class="resume-right">
+          <div class="resume-stats">
+            <div class="r-stat">
+              <span class="r-num">3+</span>
+              <span class="r-label">Years Coding</span>
+            </div>
+            <div class="r-stat">
+              <span class="r-num">6+</span>
+              <span class="r-label">Projects Built</span>
+            </div>
+            <div class="r-stat">
+              <span class="r-num">5+</span>
+              <span class="r-label">Technologies</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-label reveal">Contact</div>
+      <h2 class="section-title reveal delay-1">Get In Touch</h2>
+      <p class="section-sub reveal delay-2">Have a project idea, internship offer, or just want to chat? I'd love to hear from you.</p>
+
+      <div class="contact-grid">
+        <!-- Info -->
+        <div class="contact-info reveal delay-2">
+          <div class="contact-detail">
+            <div class="c-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div>
+              <span class="c-label">Email</span>
+              <a href="mailto:bijukumar@email.com" class="c-value">bijukumar@email.com</a>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="c-icon"><i class="fa-solid fa-phone"></i></div>
+            <div>
+              <span class="c-label">Phone</span>
+              <a href="tel:+919876543210" class="c-value">+91 98765 43210</a>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="c-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <span class="c-label">Location</span>
+              <span class="c-value">Guwahati, Assam, India</span>
+            </div>
+          </div>
+          <div class="contact-socials">
+            <a href="https://github.com/" target="_blank" class="social-btn"><i class="fa-brands fa-github"></i></a>
+            <a href="https://linkedin.com/" target="_blank" class="social-btn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://twitter.com/" target="_blank" class="social-btn"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://instagram.com/" target="_blank" class="social-btn"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <!-- Form -->
+        <form class="contact-form reveal delay-3" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fname">Full Name</label>
+              <input type="text" id="fname" name="name" placeholder="John Doe" required/>
+              <span class="form-error" id="nameErr"></span>
+            </div>
+            <div class="form-group">
+              <label for="femail">Email</label>
+              <input type="email" id="femail" name="email" placeholder="john@example.com" required/>
+              <span class="form-error" id="emailErr"></span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="fsubject">Subject</label>
+            <input type="text" id="fsubject" name="subject" placeholder="Project Collaboration" required/>
+          </div>
+          <div class="form-group">
+            <label for="fmessage">Message</label>
+            <textarea id="fmessage" name="message" rows="5" placeholder="Hey Bijukumar, I'd love to…" required></textarea>
+            <span class="form-error" id="msgErr"></span>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            <i class="fa-solid fa-paper-plane"></i> Send Message
+          </button>
+          <div class="form-success" id="formSuccess">
+            <i class="fa-solid fa-circle-check"></i> Message sent! I'll reply soon.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p class="footer-copy">© 2025 <strong>Bijukumar Brahma</strong>. Crafted with <i class="fa-solid fa-heart"></i> in Guwahati.</p>
+      <div class="footer-socials">
+        <a href="https://github.com/" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://linkedin.com/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="mailto:bijukumar@email.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-top" id="backTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <script src="script.js"></script>
+</body>
+</html>
